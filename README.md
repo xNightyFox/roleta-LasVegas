@@ -3,12 +3,12 @@
 Uma roleta de caça-níquel para sortear o próximo desafio de projeto (ou vídeo, estudo, treino, o que você quiser).
 Três rolos: **categoria | item | nicho**. O item para por último, e o nicho é fixo por item, então nunca sai uma combinação sem sentido.
 
-Um único arquivo `index.html`, sem framework e sem build. Você personaliza só o `config.js`.
+Um único arquivo `index.html`, sem framework e sem build. Você personaliza só o `config.js`. O `config.js` deste repositório é a minha versão (desafios de robótica, PCB, 3D, hack e visão); o `config.example.js` é um exemplo genérico para começar do zero.
 
 ## Usar
 
 1. Faça um fork ou baixe este repositório.
-2. Edite o `config.js`: título, categorias, itens, nichos, etapas do roteiro.
+2. Copie `config.example.js` por cima do `config.js` (ou edite o meu) e mude: título, categorias, itens, nichos, etapas do roteiro.
 3. Abra o `index.html` no navegador, ou publique no GitHub Pages (Settings → Pages → branch `main`, pasta `/root`).
 
 Para testar local com som personalizado, use um servidor simples:
